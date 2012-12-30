@@ -14,7 +14,7 @@ function mailDebug() {
 
 mail_debug.prototype.sendEmail = function(details, data) {
 	protocol.sendMail({
-		from: "Mail Debug <do_not_reply@holidayextras.com>",
+		from: "Mail Debug <do_not_reply@website.com>",
 		to: "Web Dev <" + details.email + ">",
 		subject: 'Mail Debug - ' + 
 							if(details.subject != '') { details.subject },
